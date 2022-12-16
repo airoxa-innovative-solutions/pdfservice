@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.015" height="62.556" viewBox="0 0 64.015 62.556">
+  <defs>
+    <filter id="close-circle" x="14.004" y="0" width="50.011" height="50.011" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1741" data-name="Group 1741" transform="translate(-938 -517.445)">
+    <g id="NavigatingIcon" transform="translate(904.467 522.184)">
+      <g id="Group_1722" data-name="Group 1722" transform="translate(40.217 3)">
+        <path id="Path_1416" data-name="Path 1416" d="M66.118,43.037" transform="translate(-65.656 -34.258)" fill="#56ae4d"/>
+        <path id="Path_1417" data-name="Path 1417" d="M64.019,17.669a1.324,1.324,0,0,0,.649,1.279V25c0,1.008,1.1,1.459,1.725,1.459H67.67c.622,0,.726-.451.726-1.459V5.279C68.4,4.27,68.291,3,67.67,3H66.393c-.623,0-1.725,1.27-1.725,2.279v5.349" transform="translate(-64.013 -3)" fill="#56ae4d"/>
+      </g>
+      <path id="Path_1418" data-name="Path 1418" d="M156.119,158.379v20.747h-21.03l1.087-1.316H154.15l.106-14.033h-3.623Z" transform="translate(-79.288 -121.31)" fill="#56ae4d"/>
+      <g id="Group_1724" data-name="Group 1724" transform="translate(46.452 16.66)">
+        <g id="Group_1723" data-name="Group 1723" transform="translate(0 0)">
+          <line id="Line_72" data-name="Line 72" x2="1.275" y2="1.829" fill="none" stroke="#3fa44a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray="2 4"/>
+          <line id="Line_73" data-name="Line 73" x2="19.963" y2="28.631" transform="translate(3.937 5.646)" fill="none" stroke="#3fa44a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray="2 4"/>
+          <line id="Line_74" data-name="Line 74" x2="1.275" y2="1.829" transform="translate(25.231 36.185)" fill="none" stroke="#3fa44a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.8" stroke-dasharray="2 4"/>
+        </g>
+      </g>
+      <path id="Path_1419" data-name="Path 1419" d="M66.522,222.411a3.767,3.767,0,1,0,3.767-3.767A3.766,3.766,0,0,0,66.522,222.411Zm1.7,0a2.065,2.065,0,1,1,2.066,2.066A2.065,2.065,0,0,1,68.223,222.41Z" transform="translate(-25.755 -168.36)" fill="#56ae4d"/>
+      <path id="Path_1420" data-name="Path 1420" d="M38.406,46.864c.573,2.335-.647,11.894-.515,19.274.161,9.031-1.07,13.574-1.809,15.468a10.974,10.974,0,0,0-1.2,2.5,26.718,26.718,0,0,0-1.132,3.5c-.306,1.2-.489,1.994.849,1.995h6.026a4.2,4.2,0,0,1-.547-1.968,4.383,4.383,0,0,1,3.456-4.354,4.434,4.434,0,0,1,5.449,4.293,4.081,4.081,0,0,1-.547,2.028h1.886a2.018,2.018,0,0,0,2.135-2.308l-.221-1.677c-.126-1.011-.728-3.82-1.468-4.742a1.953,1.953,0,0,0-1.581-.72L38.961,81.979c.876-2.542,1.9-7.372,1.751-15.891-.254-14.2.257-19.939,0-20.111" transform="translate(0 -33.554)" fill="#56ae4d"/>
+    </g>
+    <g id="Group_1739" data-name="Group 1739" transform="translate(645.56 528)">
+      <g transform="matrix(1, 0, 0, 1, 292.44, -10.56)" filter="url(#close-circle)">
+        <path id="close-circle-2" data-name="close-circle" d="M58.005,48A10.005,10.005,0,1,0,68.011,58.005,10.017,10.017,0,0,0,58.005,48Zm3.623,12.54a.77.77,0,1,1-1.088,1.088l-2.535-2.534-2.535,2.534a.77.77,0,0,1-1.088-1.088l2.534-2.535-2.534-2.535a.77.77,0,0,1,1.088-1.088l2.535,2.534,2.535-2.534a.77.77,0,0,1,1.088,1.088l-2.534,2.535Z" transform="translate(-19 -35)" fill="#78787a"/>
+      </g>
+    </g>
+  </g>
+</svg>

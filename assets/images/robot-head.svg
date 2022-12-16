@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 17 20" style="enable-background:new 0 0 17 20;" xml:space="preserve">
+<style type="text/css">
+	.st1{filter:url(#Path_1228);}
+	.st2{fill:#FFFFFF;}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="50.008" id="Path_1228" width="47.037" x="0" y="0">
+	<feOffset  dy="2" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="5"></feGaussianBlur>
+	<feFlood  flood-opacity="0.161"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g id="Group_1668" transform="translate(-11615.76 -2274.523)" class="st0">
+	<g id="tiles_beamProIcon_1_" transform="translate(11630.76 2287.523)">
+		<g transform="matrix(1, 0, 0, 1, -15, -13)" class="st1">
+			<path id="Path_1228-2_1_" class="st2" d="M6.4,20h4.2 M11.3,20h5.1c0.4,0,0.6-0.3,0.6-0.6c0,0,0,0,0,0V16c0-0.4-0.3-0.6-0.6-0.6
+				h-2V0.6c0-0.4-0.3-0.6-0.6-0.6c0,0,0,0,0,0H3.4C3.1,0,2.8,0.3,2.8,0.6c0,0,0,0,0,0v14.7H0.6c-0.4,0-0.6,0.3-0.6,0.6c0,0,0,0,0,0
+				v3.4C0,19.7,0.3,20,0.6,20c0,0,0,0,0,0h5 M8.7,0.6c0.4,0,0.6,0.3,0.6,0.6c0,0,0,0,0,0c0,0.4-0.3,0.6-0.6,0.6c0,0,0,0,0,0h0
+				c-0.4,0-0.7-0.3-0.7-0.7S8.4,0.6,8.7,0.6L8.7,0.6L8.7,0.6z M13.1,15.3h-9V2.8h9L13.1,15.3L13.1,15.3z"/>
+		</g>
+	</g>
+</g>
+</svg>
