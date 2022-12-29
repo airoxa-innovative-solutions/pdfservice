@@ -1,7 +1,7 @@
-import { ColorPalette } from "./types";
+import { ColorPalette } from './types';
 
 export const rawPalette = (() => {
-  //background
+  // background
   const red = new Array(256).fill(102);
   const green = new Array(256).fill(102);
   const blue = new Array(256).fill(102);
@@ -47,7 +47,7 @@ export const rawPalette = (() => {
 })();
 
 export const exposurePalette = (() => {
-  //background
+  // background
   const red = new Array(256).fill(102);
   const green = new Array(256).fill(102);
   const blue = new Array(256).fill(102);

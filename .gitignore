@@ -1,3 +1,6 @@
 node_modules
 .DS_Store
 *.pdf
+/lib
+pdfmaker-1.0.0.tgz
+pdfmaker-1.0.5.tgz

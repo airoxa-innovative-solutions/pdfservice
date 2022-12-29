@@ -1,9 +1,9 @@
 export enum ExposureType {
-  UvdExposure = "uvdExposure",
-  ScaleTwo = "scaleTwo",
-  Dosimeter100 = "dosimeter100",
-  Pathogens = "pathogens",
-  RawExposure = "rawExposure",
+  UvdExposure = 'uvdExposure',
+  ScaleTwo = 'scaleTwo',
+  Dosimeter100 = 'dosimeter100',
+  Pathogens = 'pathogens',
+  RawExposure = 'rawExposure',
 }
 
 type Tuple<TItem, TLength extends number> = [TItem, ...TItem[]] & {

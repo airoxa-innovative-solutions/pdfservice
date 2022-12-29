@@ -2,17 +2,24 @@
   "compilerOptions": {
     "strictPropertyInitialization": false,
     "target": "es5",
+    "module": "commonjs",
     "lib": ["dom", "dom.iterable", "ES2015"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "outDir": "lib",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
-    "noEmit": true,
-    "jsx": "react"
+    "noEmit": false,
+    "jsx": "react",
+    "resolveJsonModule": true
   },
-  "include": ["lib"],
+  // "include": ["src"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/__tests__/*"],
+
   "browserslist": ["> 5%"]
 }

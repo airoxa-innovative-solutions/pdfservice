@@ -1,7 +1,7 @@
-import { ExposureType } from "./types";
-import { exposurePalette, rawPalette } from "./palettes";
+import { ExposureType } from './types';
+import { exposurePalette, rawPalette } from './palettes';
 
-import type { ColorPalette } from "./types";
+import type { ColorPalette } from './types';
 
 export function thresholded(imageData: ImageData): ImageData {
   // TODO: implement filters here
@@ -32,7 +32,7 @@ export function getPalette(activeColorSchema: ExposureType): ColorPalette {
 export function applyPaletteColorsToImage(
   imageData: ImageData,
   mapPalette: ColorPalette,
-  exposureType?: ExposureType
+  exposureType?: ExposureType,
 ): ImageData {
   const { data, width, height } = imageData;
 
