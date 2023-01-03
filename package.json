@@ -1,6 +1,6 @@
 {
   "name": "pdfmaker",
-  "version": "1.0.6",
+  "version": "1.0.20",
   "description": "pdf generator",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,6 +8,7 @@
     "start": "npx ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "postbuild": "cp -R assets fonts ./lib",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "preversion": "npm run lint"

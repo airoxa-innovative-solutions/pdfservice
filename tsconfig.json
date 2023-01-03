@@ -1,9 +1,18 @@
 {
+  /* "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "strict": true,
+    }
+  }, */
   "compilerOptions": {
     "strictPropertyInitialization": false,
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["dom", "dom.iterable", "ES2015"],
+    "target": "ES5",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "module": "ESNext",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -15,10 +24,12 @@
     "sourceMap": true,
     "noEmit": false,
     "jsx": "react",
-    "resolveJsonModule": true
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
   },
   // "include": ["src"],
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "assets/**/*", "fonts/**/*"],
   "exclude": ["node_modules", "**/__tests__/*"],
 
   "browserslist": ["> 5%"]

@@ -1,27 +1,21 @@
 import { StyleSheet, Font } from '@react-pdf/renderer';
-// import industryBoldFont from "./fonts/Industry/Industry-Bold.ttf";
-// import robotoRegular from "./fonts/Roboto/Roboto-Regular.ttf";
-// import robotoMedium from "./fonts/Roboto/Roboto-Medium.ttf";
-// import arialUnicode from "./fonts/Arial/Arial Unicode.ttf";
+import industryBoldFont from './fonts/Industry/Industry-Bold.woff';
+import robotoRegular from './fonts/Roboto/Roboto-Regular.ttf';
+import robotoMedium from './fonts/Roboto/Roboto-Medium.ttf';
 
 Font.register({
   family: 'Industry',
-  src: './fonts/Industry/Industry-Bold.ttf',
+  src: industryBoldFont,
 });
 
 Font.register({
   family: 'Roboto',
-  src: './fonts/Roboto/Roboto-Regular.ttf',
+  src: industryBoldFont,
 });
 
 Font.register({
   family: 'Roboto-medium',
-  src: './fonts/Roboto/Roboto-Medium.ttf',
-});
-
-Font.register({
-  family: 'Arial-unicode',
-  src: './fonts/Arial/Arial Unicode.ttf',
+  src: industryBoldFont,
 });
 
 // Documentation in https://react-pdf.org/styling
@@ -157,7 +151,6 @@ export const styles = StyleSheet.create({
   listItemValue: {
     justifyContent: 'flex-end',
     alignContent: 'flex-end',
-    fontFamily: 'Arial-unicode',
   },
   detailsTxt: {
     fontSize: 10,
