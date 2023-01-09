@@ -1,21 +1,22 @@
 import { StyleSheet, Font } from '@react-pdf/renderer';
-import industryBoldFont from './fonts/Industry/Industry-Bold.woff';
-import robotoRegular from './fonts/Roboto/Roboto-Regular.ttf';
-import robotoMedium from './fonts/Roboto/Roboto-Medium.ttf';
+import industryBoldFont from './fonts/Industry/Industry-Bold.ttf';
+//import robotoRegular from './fonts/Roboto/Roboto-Regular.ttf';
+//import robotoMedium from './fonts/Roboto/Roboto-Medium.ttf';
+//const industryBoldFont = require('./fonts/Industry/Industry-Bold.ttf');
 
 Font.register({
   family: 'Industry',
-  src: industryBoldFont,
+  src: './fonts/Industry/Industry-Bold.ttf',
 });
 
 Font.register({
   family: 'Roboto',
-  src: industryBoldFont,
+  src: './fonts/Roboto/Roboto-Regular.ttf',
 });
 
 Font.register({
   family: 'Roboto-medium',
-  src: industryBoldFont,
+  src: './fonts/Roboto/Roboto-Medium.ttf',
 });
 
 // Documentation in https://react-pdf.org/styling

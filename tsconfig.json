@@ -29,7 +29,7 @@
     "isolatedModules": true,
   },
   // "include": ["src"],
-  "include": ["src/**/*", "assets/**/*", "fonts/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/__tests__/*"],
 
   "browserslist": ["> 5%"]

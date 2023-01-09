@@ -1,6 +1,6 @@
 {
   "name": "pdfmaker",
-  "version": "1.0.20",
+  "version": "1.0.34",
   "description": "pdf generator",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

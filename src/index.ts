@@ -49,7 +49,7 @@ const getImageDataFromImageUrl = (imageUrl: string): ImageData | any => {
   return new Promise((resolve, reject) => {
     if (!imageUrl) return reject();
 
-    loadImage(imageUrl).then((image) => {
+    loadImage(imageUrl).then((image: any) => {
       const canvas = createCanvas(image.width, image.height);
       const context = canvas.getContext('2d');
 
@@ -123,6 +123,7 @@ export const pdfCreate = async (reportData: any, srcMap: string, srcExposure: st
     const pdfObj = pdf();
     pdfObj.updateContainer(getDocument(reportData, mapSrc));
 
+    renderToFile(getDocument(reportData, mapSrc), 'local.pdf');
     return pdfObj.toBlob();
     //return renderToFile(getDocument(reportData, mapSrc), 's.pdf');
     //return renderToStream(getDocument(reportData, mapSrc));
@@ -152,4 +153,4 @@ const srcMap1 =
   }); */
 
 // exports.default = pdfCreate;
-// export default pdfCreate;
+export default pdfCreate;
